@@ -60,6 +60,10 @@
     <Compile Include="TestCase02.cs" />
     <Compile Include="TestCase03.cs" />
     <Compile Include="TestCase04.cs" />
+    <Compile Include="TestConfig.cs" />
+    <Compile Include="TestHook.cs" />
+    <Compile Include="Utilities\IISExpressHelper.cs" />
+    <Compile Include="Utilities\TestContextExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
