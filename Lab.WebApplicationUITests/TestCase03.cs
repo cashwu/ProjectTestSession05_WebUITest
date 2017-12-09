@@ -20,7 +20,7 @@ namespace Lab.WebApplicationUITests
         {
             this.driver = new ChromeDriver();
             this.driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromMilliseconds(500));
-            this.baseURL = "http://172.18.51.237/";
+            this.baseURL = "http://localhost:36747";
             this.verificationErrors = new StringBuilder();
         }
 
